@@ -1,0 +1,103 @@
+/* Page elements */
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#fff;
+	color:#000;
+	font-family:arial, helvetica, sans-serif;
+	font-size: 14px; 
+	}
+
+/* DIVs */
+#mainBody {
+	margin:0 auto;
+	width:900px;
+	background:url(/robologger/images/main_bg.gif) repeat-y;
+	position:relative;
+	text-align:center;	
+}
+
+/* FF/IE Center Hack */
+#mainBody {	
+	text-align:-moz-center;	
+}
+
+#topRow {
+	margin:0 auto;
+	width:900px;
+	height:92px;
+	background:url(/robologger/images/main_top.gif) no-repeat;
+}
+
+#bottomRow {
+	margin:0 auto;
+	width:900px;
+	height:49px;
+	background:url(/robologger/images/main_bottom.gif) no-repeat;
+}
+
+#formLogList {
+	position:relative;
+	top:30px;
+	left:530px;
+}
+
+#logListResults {
+	position:relative;
+	text-align:left;
+	width:800px;
+	margin-bottom:15px;
+}
+
+#logListDetails {
+	position:relative;
+	text-align:left;
+	width:800px;
+	margin-bottom:15px;
+}
+
+#logRowDetails {
+	position:relative;
+	text-align:left;
+	width:800px;
+	margin-bottom:15px;
+
+}
+
+#logHelp {
+	position:relative;
+	left:51px;
+	top:-15px;
+	text-align:left;
+	display:none;
+	margin-bottom:15px;
+}
+
+/* CLASSES */
+.divBody {
+	background: url(/robologger/images/div_bg.gif) repeat-y;
+	padding:5px 20px 0px 20px;
+}
+
+.divFooter {
+	background: url(/robologger/images/div_bottom.gif) no-repeat;
+	height:15px;
+}
+
+.listHeader {
+	position:relative;
+	background: url(/robologger/images/divBar.gif) no-repeat top;
+	height:29px;
+	width:798px;
+	text-align:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	left:1px;
+}
+
+.rowHeader {
+	margin:4px 0px 0px 10px;
+	overflow:hidden;
+}
